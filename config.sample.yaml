@@ -1,0 +1,12 @@
+---
+listen: 0.0.0.0:8000
+mode: debug # release
+database:
+  type: postgres
+  host: localhost
+  port: 5432
+  user: test
+  password: 123456
+  dbname: test
+  max_idle_conns: 3
+  max_open_conns: 10
